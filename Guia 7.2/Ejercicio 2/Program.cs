@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Se desea saber si el número ingresado es positivo, negativo o cero
+
 namespace Ejercicio_2
 {
     class Program
@@ -26,6 +28,8 @@ namespace Ejercicio_2
             {
                 Console.WriteLine("El número es positivo");
             }
+
+            Console.ReadKey();
         }
     }
 }

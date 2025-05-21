@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Dadas las notas de 3 parciales, calcular promedio y decir si promociona o rinde final.
+
 namespace Ejercicio_1
 {
     class Program
@@ -30,6 +32,8 @@ namespace Ejercicio_1
             {
                 Console.WriteLine("El alumno no está promovido, rinde final");
             }
+
+            Console.ReadKey();
         }
     }
 }
